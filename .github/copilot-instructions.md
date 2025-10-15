@@ -116,9 +116,10 @@ pub enum SolanaPayError {
 - **Strict compliance**: Reject anything not in specification (fail-fast)
 - **Clear error messages**: Provide actionable feedback (e.g., "Decimal numbers less than 1 must have leading 0")
 - **Layered validation**: 
-  1. URL scheme validation (`solana:`)
+  1. URL scheme validation (`solana:` - case-sensitive, exact match required)
   2. Field parsing (recipient, amount, etc.)
   3. Semantic validation (amount > 0, decimal places, etc.)
+- **Case sensitivity**: The `solana:` scheme must be lowercase (per spec, uppercase `SOLANA:` is invalid)
 
 ### Transaction Building
 - Use `TransactionBuilder` for creating Solana transactions
@@ -181,6 +182,13 @@ assert_eq!(request, parsed); // Roundtrip equality
 ### Transaction Building (SOL)
 ```rust
 use rust_decimal::prelude::ToPrimitive; // Required for to_u64()
+
+// Inside function that builds SOL transfer
+fn build_sol_transfer(amount: Decimal) -> Result<u64> {
+    let lamports = amount * Decimal::new(1_000_000_000, 0);
+    lamports.to_u64()
+        .ok_or(SolanaPayError::InvalidAmount("Amount too large".to_string()))
+}
 
 let tx = TransactionBuilder::create_sol_transfer(
     &request, 
