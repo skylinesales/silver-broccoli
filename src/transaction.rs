@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use solana_sdk::pubkey::Pubkey;
 use std::collections::HashMap;
 use url::Url;
 

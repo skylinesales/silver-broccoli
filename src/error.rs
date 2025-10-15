@@ -31,6 +31,9 @@ pub enum SolanaPayError {
     
     #[error("Decimal parse error: {0}")]
     DecimalParseError(#[from] rust_decimal::Error),
+    
+    #[error("Program error: {0}")]
+    ProgramError(#[from] solana_sdk::program_error::ProgramError),
 }
 
 pub type Result<T> = std::result::Result<T, SolanaPayError>;

@@ -9,6 +9,7 @@ use solana_sdk::{
 use spl_token::instruction as token_instruction;
 use spl_associated_token_account::instruction as ata_instruction;
 use rust_decimal::Decimal;
+use rust_decimal::prelude::ToPrimitive;
 
 use crate::{
     transfer::TransferRequest,
@@ -23,7 +24,7 @@ impl TransactionBuilder {
     pub fn create_sol_transfer(
         request: &TransferRequest,
         payer: &Pubkey,
-        recent_blockhash: Hash,
+        _recent_blockhash: Hash,
     ) -> Result<Transaction> {
         let amount = request.amount
             .ok_or_else(|| SolanaPayError::MissingField("amount".to_string()))?;
@@ -56,7 +57,7 @@ impl TransactionBuilder {
         request: &TransferRequest,
         payer: &Pubkey,
         token_decimals: u8,
-        recent_blockhash: Hash,
+        _recent_blockhash: Hash,
     ) -> Result<Transaction> {
         let mint = request.spl_token
             .ok_or_else(|| SolanaPayError::MissingField("spl_token".to_string()))?;

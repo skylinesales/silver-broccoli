@@ -58,7 +58,9 @@ fn transaction_response_example() -> Result<()> {
     ).message("Please review and sign this transaction".to_string());
     
     println!("   Transaction (base64): {}", response.transaction);
-    println!("   Message: {}", response.message.unwrap());
+    if let Some(msg) = &response.message {
+        println!("   Message: {}", msg);
+    }
     println!();
     
     // In a real application, this would be JSON serialized:
