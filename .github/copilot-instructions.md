@@ -63,8 +63,13 @@ Strictly follows [Solana Pay specification](https://github.com/solana-labs/solan
 Uses `thiserror` for structured error handling:
 ```rust
 pub enum SolanaPayError {
+    #[error("Invalid URL format: {0}")]
     InvalidUrl(String),
+
+    #[error("Invalid recipient address: {0}")]
     InvalidRecipient(String),
+
+    #[error("Invalid amount: {0}")]
     InvalidAmount(String),
     // ... other variants
 }
@@ -88,12 +93,6 @@ pub enum SolanaPayError {
 - Handle both SOL transfers and SPL token transfers
 - Include memo instructions when specified
 - Validate transaction matches original request
-
-### CLI Design Patterns
-- Subcommands for different operations (`parse`, `transfer`, `transaction`, `validate`)
-- Optional arguments with sensible defaults
-- Comprehensive help text and error messages
-- JSON output option for programmatic use
 
 ## Testing Strategy
 - **Unit tests**: Core functionality in each module
@@ -127,4 +126,5 @@ let tx = TransactionBuilder::create_sol_transfer(&request, &payer, blockhash)?;
 - **Owner**: skylinesales
 - **Repository**: silver-broccoli
 - **License**: MIT
+- **Specification**: [Solana Pay SPEC](https://github.com/solana-labs/solana-pay/blob/master/SPEC.md)
 - **Specification**: [Solana Pay SPEC](https://github.com/solana-labs/solana-pay/blob/master/SPEC.md)
