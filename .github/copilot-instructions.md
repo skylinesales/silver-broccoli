@@ -157,12 +157,6 @@ use crate::transfer::TransferRequest;
 
 ## Known Issues & Workarounds
 
-### Current Compilation Errors
-⚠️ **Missing Decimal Import in builder.rs**
-- **Issue**: `builder.rs` uses `Decimal` type without importing it
-- **Fix**: Add `use rust_decimal::Decimal;` to imports in `builder.rs`
-- **Location**: Lines 107, 108, 116, 117 in `builder.rs`
-
 ### Common Build Issues
 1. **Solana SDK Version Conflicts**: Ensure all Solana-related crates use compatible versions
 2. **Long Build Times**: First build may take 5-10 minutes due to Solana dependencies
