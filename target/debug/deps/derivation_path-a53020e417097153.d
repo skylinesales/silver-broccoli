@@ -1,0 +1,5 @@
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\derivation_path-a53020e417097153.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derivation-path-0.2.0\src\lib.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\libderivation_path-a53020e417097153.rmeta: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derivation-path-0.2.0\src\lib.rs
+
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\derivation-path-0.2.0\src\lib.rs:

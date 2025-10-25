@@ -1,5 +1,5 @@
-   1.058968100s  INFO prepare_target{force=false package_id=solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build) target="solana-verify"}: cargo::core::compiler::fingerprint: fingerprint error for solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build)/Check { test: false }/TargetInner { name: "solana-verify", doc: true, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\src\\main.rs", Edition2021) }
-   1.059037300s  INFO prepare_target{force=false package_id=solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build) target="solana-verify"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-verify-68dc2d67cc96aa67\bin-solana-verify`
+  19.389710500s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana_pay"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_pay", ["lib"], "C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\src\\lib.rs", Edition2021) }
+  19.391248400s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana_pay"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-3385c05d374deb96\lib-solana_pay`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,791 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   1.110485500s  INFO prepare_target{force=false package_id=solana-cli-config v1.14.13 target="solana_cli_config"}: cargo::core::compiler::fingerprint: fingerprint error for solana-cli-config v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_cli_config", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-cli-config-1.14.13\\src\\lib.rs", Edition2021) }
-   1.110539200s  INFO prepare_target{force=false package_id=solana-cli-config v1.14.13 target="solana_cli_config"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-cli-config-8f316cd453d0e45d\lib-solana_cli_config`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: <unknown>
-  16: <unknown>
-  17: git_midx_writer_dump
-  18: git_filter_source_repo
-  19: git_midx_writer_dump
-  20: BaseThreadInitThunk
-  21: RtlUserThreadStart
-   1.117570400s  INFO prepare_target{force=false package_id=solana-clap-utils v1.14.13 target="solana_clap_utils"}: cargo::core::compiler::fingerprint: fingerprint error for solana-clap-utils v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_clap_utils", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-clap-utils-1.14.13\\src\\lib.rs", Edition2021) }
-   1.117597500s  INFO prepare_target{force=false package_id=solana-clap-utils v1.14.13 target="solana_clap_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-clap-utils-a08ce910eba88d21\lib-solana_clap_utils`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.128383800s  INFO prepare_target{force=false package_id=solana-perf v1.14.13 target="solana_perf"}: cargo::core::compiler::fingerprint: fingerprint error for solana-perf v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_perf", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-perf-1.14.13\\src\\lib.rs", Edition2021) }
-   1.128427500s  INFO prepare_target{force=false package_id=solana-perf v1.14.13 target="solana_perf"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-perf-55990f82605505fd\lib-solana_perf`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.151290000s  INFO prepare_target{force=false package_id=solana-metrics v1.14.13 target="solana_metrics"}: cargo::core::compiler::fingerprint: fingerprint error for solana-metrics v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_metrics", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-metrics-1.14.13\\src\\lib.rs", Edition2021) }
-   1.151323600s  INFO prepare_target{force=false package_id=solana-metrics v1.14.13 target="solana_metrics"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-metrics-62443eb0a3ef2a4b\lib-solana_metrics`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   1.186375900s  INFO prepare_target{force=false package_id=solana-sdk v1.14.13 target="solana_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sdk v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_sdk", ["cdylib", "rlib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sdk-1.14.13\\src\\lib.rs", Edition2021) }
-   1.186424100s  INFO prepare_target{force=false package_id=solana-sdk v1.14.13 target="solana_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-sdk-bb5417e765477328\lib-solana_sdk`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_path
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: git_filter_source_repo
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   1.242262200s  INFO prepare_target{force=false package_id=solana-program v1.14.13 target="solana_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_program", ["cdylib", "rlib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-1.14.13\\src\\lib.rs", Edition2021) }
-   1.242315900s  INFO prepare_target{force=false package_id=solana-program v1.14.13 target="solana_program"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-program-68ac17f207ff5b46\lib-solana_program`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_path
-  14: git_filter_source_path
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: git_filter_source_repo
-  19: git_filter_source_repo
-  20: <unknown>
-  21: <unknown>
-  22: git_midx_writer_dump
-  23: git_filter_source_repo
-  24: git_midx_writer_dump
-  25: BaseThreadInitThunk
-  26: RtlUserThreadStart
-   1.251546900s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.83 target="wasm_bindgen"}: cargo::core::compiler::fingerprint: fingerprint error for wasm-bindgen v0.2.83/Check { test: false }/TargetInner { name_inferred: true, tested: false, ..: lib_target("wasm_bindgen", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasm-bindgen-0.2.83\\src\\lib.rs", Edition2018) }
-   1.251605300s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.83 target="wasm_bindgen"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\wasm-bindgen-a3927b3bc954dc2e\lib-wasm_bindgen`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_path
-  14: git_filter_source_path
-  15: git_filter_source_path
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: git_filter_source_repo
-  19: git_filter_source_repo
-  20: git_filter_source_repo
-  21: <unknown>
-  22: <unknown>
-  23: git_midx_writer_dump
-  24: git_filter_source_repo
-  25: git_midx_writer_dump
-  26: BaseThreadInitThunk
-  27: RtlUserThreadStart
-   1.264467400s  INFO prepare_target{force=false package_id=solana-vote-program v1.14.13 target="solana_vote_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-vote-program v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_vote_program", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-vote-program-1.14.13\\src\\lib.rs", Edition2021) }
-   1.264522500s  INFO prepare_target{force=false package_id=solana-vote-program v1.14.13 target="solana_vote_program"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-vote-program-c580903aebda84ac\lib-solana_vote_program`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   1.268494200s  INFO prepare_target{force=false package_id=solana-program-runtime v1.14.13 target="solana_program_runtime"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-runtime v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_program_runtime", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-runtime-1.14.13\\src\\lib.rs", Edition2021) }
-   1.268555500s  INFO prepare_target{force=false package_id=solana-program-runtime v1.14.13 target="solana_program_runtime"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-program-runtime-98600fbd3bb5d942\lib-solana_program_runtime`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_path
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: git_filter_source_repo
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   1.274111200s  INFO prepare_target{force=false package_id=solana-measure v1.14.13 target="solana_measure"}: cargo::core::compiler::fingerprint: fingerprint error for solana-measure v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_measure", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-measure-1.14.13\\src\\lib.rs", Edition2021) }
-   1.274264700s  INFO prepare_target{force=false package_id=solana-measure v1.14.13 target="solana_measure"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-measure-259ab49c7b53f91d\lib-solana_measure`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_path
-  14: git_filter_source_path
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: git_filter_source_repo
-  19: git_filter_source_repo
-  20: <unknown>
-  21: <unknown>
-  22: git_midx_writer_dump
-  23: git_filter_source_repo
-  24: git_midx_writer_dump
-  25: BaseThreadInitThunk
-  26: RtlUserThreadStart
-   1.281374600s  INFO prepare_target{force=false package_id=solana-remote-wallet v1.14.13 target="solana_remote_wallet"}: cargo::core::compiler::fingerprint: fingerprint error for solana-remote-wallet v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_remote_wallet", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-remote-wallet-1.14.13\\src\\lib.rs", Edition2021) }
-   1.281422900s  INFO prepare_target{force=false package_id=solana-remote-wallet v1.14.13 target="solana_remote_wallet"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-remote-wallet-25d4ca1b50a67814\lib-solana_remote_wallet`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.286492500s  INFO prepare_target{force=false package_id=solana-client v1.14.13 target="solana_client"}: cargo::core::compiler::fingerprint: fingerprint error for solana-client v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_client", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-client-1.14.13\\src\\lib.rs", Edition2021) }
-   1.286536000s  INFO prepare_target{force=false package_id=solana-client v1.14.13 target="solana_client"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-client-b285de8502548181\lib-solana_client`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: <unknown>
-  16: <unknown>
-  17: git_midx_writer_dump
-  18: git_filter_source_repo
-  19: git_midx_writer_dump
-  20: BaseThreadInitThunk
-  21: RtlUserThreadStart
-   1.298982400s  INFO prepare_target{force=false package_id=solana-account-decoder v1.14.13 target="solana_account_decoder"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account-decoder v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_account_decoder", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-decoder-1.14.13\\src\\lib.rs", Edition2021) }
-   1.299039600s  INFO prepare_target{force=false package_id=solana-account-decoder v1.14.13 target="solana_account_decoder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-account-decoder-c496407efe1f83b2\lib-solana_account_decoder`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.302573300s  INFO prepare_target{force=false package_id=solana-address-lookup-table-program v1.14.13 target="solana_address_lookup_table_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-address-lookup-table-program v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_address_lookup_table_program", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-address-lookup-table-program-1.14.13\\src\\lib.rs", Edition2021) }
-   1.302635200s  INFO prepare_target{force=false package_id=solana-address-lookup-table-program v1.14.13 target="solana_address_lookup_table_program"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-address-lookup-table-program-11da44936e77e52c\lib-solana_address_lookup_table_program`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.308780900s  INFO prepare_target{force=false package_id=solana-config-program v1.14.13 target="solana_config_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-config-program v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_config_program", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-config-program-1.14.13\\src\\lib.rs", Edition2021) }
-   1.308839800s  INFO prepare_target{force=false package_id=solana-config-program v1.14.13 target="solana_config_program"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-config-program-b44a4c0b60617937\lib-solana_config_program`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.311903600s  INFO prepare_target{force=false package_id=spl-token v3.5.0 target="spl_token"}: cargo::core::compiler::fingerprint: fingerprint error for spl-token v3.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_token", ["cdylib", "lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spl-token-3.5.0\\src\\lib.rs", Edition2018) }
-   1.311980100s  INFO prepare_target{force=false package_id=spl-token v3.5.0 target="spl_token"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\spl-token-9551638102df71ba\lib-spl_token`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.321646700s  INFO prepare_target{force=false package_id=spl-token-2022 v0.5.0 target="spl_token_2022"}: cargo::core::compiler::fingerprint: fingerprint error for spl-token-2022 v0.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_token_2022", ["cdylib", "lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spl-token-2022-0.5.0\\src\\lib.rs", Edition2018) }
-   1.321696800s  INFO prepare_target{force=false package_id=spl-token-2022 v0.5.0 target="spl_token_2022"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\spl-token-2022-74bc9893216233ff\lib-spl_token_2022`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.324781900s  INFO prepare_target{force=false package_id=solana-zk-token-sdk v1.14.13 target="solana_zk_token_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for solana-zk-token-sdk v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_zk_token_sdk", ["cdylib", "rlib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-zk-token-sdk-1.14.13\\src\\lib.rs", Edition2021) }
-   1.324845200s  INFO prepare_target{force=false package_id=solana-zk-token-sdk v1.14.13 target="solana_zk_token_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-zk-token-sdk-097b9d91fa425a39\lib-solana_zk_token_sdk`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   1.330766700s  INFO prepare_target{force=false package_id=spl-memo v3.0.1 target="spl_memo"}: cargo::core::compiler::fingerprint: fingerprint error for spl-memo v3.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_memo", ["cdylib", "lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spl-memo-3.0.1\\src\\lib.rs", Edition2018) }
-   1.330870800s  INFO prepare_target{force=false package_id=spl-memo v3.0.1 target="spl_memo"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\spl-memo-88834d248bfde137\lib-spl_memo`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_path
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_filter_source_repo
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   1.337237100s  INFO prepare_target{force=false package_id=solana-faucet v1.14.13 target="solana_faucet"}: cargo::core::compiler::fingerprint: fingerprint error for solana-faucet v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_faucet", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-faucet-1.14.13\\src\\lib.rs", Edition2021) }
-   1.337282600s  INFO prepare_target{force=false package_id=solana-faucet v1.14.13 target="solana_faucet"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-faucet-c5c28eff4230e5e8\lib-solana_faucet`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.340848300s  INFO prepare_target{force=false package_id=solana-version v1.14.13 target="solana_version"}: cargo::core::compiler::fingerprint: fingerprint error for solana-version v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_version", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-version-1.14.13\\src\\lib.rs", Edition2021) }
-   1.340890200s  INFO prepare_target{force=false package_id=solana-version v1.14.13 target="solana_version"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-version-1b89343e9f7e0444\lib-solana_version`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.345732200s  INFO prepare_target{force=false package_id=solana-net-utils v1.14.13 target="solana_net_utils"}: cargo::core::compiler::fingerprint: fingerprint error for solana-net-utils v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_net_utils", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-net-utils-1.14.13\\src\\lib.rs", Edition2021) }
-   1.345815100s  INFO prepare_target{force=false package_id=solana-net-utils v1.14.13 target="solana_net_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-net-utils-5f91db619318e48a\lib-solana_net_utils`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.350547700s  INFO prepare_target{force=false package_id=solana-streamer v1.14.13 target="solana_streamer"}: cargo::core::compiler::fingerprint: fingerprint error for solana-streamer v1.14.13/Check { test: false }/TargetInner { ..: lib_target("solana_streamer", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-streamer-1.14.13\\src\\lib.rs", Edition2021) }
-   1.350596200s  INFO prepare_target{force=false package_id=solana-streamer v1.14.13 target="solana_streamer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-streamer-a1715ababc9a989e\lib-solana_streamer`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.420355400s  INFO prepare_target{force=false package_id=solana-transaction-status v1.14.13 target="solana_transaction_status"}: cargo::core::compiler::fingerprint: fingerprint error for solana-transaction-status v1.14.13/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_transaction_status", ["lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-transaction-status-1.14.13\\src\\lib.rs", Edition2021) }
-   1.420405500s  INFO prepare_target{force=false package_id=solana-transaction-status v1.14.13 target="solana_transaction_status"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-transaction-status-c467242236a8562a\lib-solana_transaction_status`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   1.423563000s  INFO prepare_target{force=false package_id=spl-associated-token-account v1.1.2 target="spl_associated_token_account"}: cargo::core::compiler::fingerprint: fingerprint error for spl-associated-token-account v1.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spl_associated_token_account", ["cdylib", "lib"], "C:\\Users\\troy young\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spl-associated-token-account-1.1.2\\src\\lib.rs", Edition2018) }
-   1.423608700s  INFO prepare_target{force=false package_id=spl-associated-token-account v1.1.2 target="spl_associated_token_account"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\spl-associated-token-account-62adfd9d9e257b13\lib-spl_associated_token_account`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_path
-   6: git_filter_source_path
-   7: git_filter_source_path
-   8: git_filter_source_path
-   9: git_filter_source_path
-  10: git_filter_source_path
-  11: git_filter_source_path
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   1.429384400s  INFO prepare_target{force=false package_id=solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build) target="solana-verify"}: cargo::core::compiler::fingerprint: fingerprint error for solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build)/Check { test: true }/TargetInner { name: "solana-verify", doc: true, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\src\\main.rs", Edition2021) }
-   1.429434700s  INFO prepare_target{force=false package_id=solana-verify v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build) target="solana-verify"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\target\debug\.fingerprint\solana-verify-be57162e662bd966\test-bin-solana-verify`
+  25.790673100s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana_pay"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("solana_pay", ["lib"], "C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\src\\lib.rs", Edition2021) }
+  25.790721200s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana_pay"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-1a83228e0b2a136f\test-lib-solana_pay`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -837,5 +54,119 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-    Checking wasm-bindgen v0.2.83
-error: could not compile `wasm-bindgen` (lib) due to 1 previous error
+  26.036249000s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana-pay"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: false }/TargetInner { name: "solana-pay", doc: true, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\src\\main.rs", Edition2021) }
+  26.036287000s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana-pay"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-62233d9db615bd8f\bin-solana-pay`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  26.039179500s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana-pay"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: true }/TargetInner { name: "solana-pay", doc: true, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\src\\main.rs", Edition2021) }
+  26.039229700s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="solana-pay"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-0420fbbea5b6be39\test-bin-solana-pay`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  26.042580300s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="transaction_requests"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: false }/TargetInner { kind: "example", name: "transaction_requests", tested: false, benched: false, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\examples\\transaction_requests.rs", Edition2021) }
+  26.042637000s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="transaction_requests"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-576fd66e37175617\example-transaction_requests`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  26.046339100s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="transfer_requests"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)/Check { test: false }/TargetInner { kind: "example", name: "transfer_requests", tested: false, benched: false, ..: with_path("C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\examples\\transfer_requests.rs", Edition2021) }
+  26.046403000s  INFO prepare_target{force=false package_id=solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli) target="transfer_requests"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\.fingerprint\solana-pay-1ee7b97d6f212ee8\example-transfer_requests`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking solana-pay v0.1.0 (C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli)
+error: could not compile `solana-pay` (lib) due to 5 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `solana-pay` (lib test) due to 5 previous errors

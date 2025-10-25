@@ -1,0 +1,7 @@
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\light_poseidon-3ff5a844da1cef9a.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\mod.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\bn254_x5.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\liblight_poseidon-3ff5a844da1cef9a.rmeta: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\mod.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\bn254_x5.rs
+
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\lib.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\mod.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\light-poseidon-0.2.0\src\parameters\bn254_x5.rs:
