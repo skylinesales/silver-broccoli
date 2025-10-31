@@ -1,0 +1,8 @@
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\utf8parse-9e8796421878ae72.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\types.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\libutf8parse-9e8796421878ae72.rlib: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\types.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\libutf8parse-9e8796421878ae72.rmeta: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\types.rs
+
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\lib.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8parse-0.2.2\src\types.rs:

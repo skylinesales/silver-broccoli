@@ -1,0 +1,12 @@
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\serde-d5270aa3a10ef328.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\troy\ young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\build\serde-5308fca88ef0f50f\out/private.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\libserde-d5270aa3a10ef328.rmeta: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\troy\ young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\build\serde-5308fca88ef0f50f\out/private.rs
+
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\troy\ young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\build\serde-5308fca88ef0f50f\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\troy young\\vscode-remote-wsl\\insider\\solana-verifiable-build\\silver-broccoli\\target\\debug\\build\\serde-5308fca88ef0f50f\\out

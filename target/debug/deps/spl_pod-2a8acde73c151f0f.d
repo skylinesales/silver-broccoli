@@ -1,0 +1,10 @@
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\spl_pod-2a8acde73c151f0f.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\bytemuck.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\error.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\optional_keys.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\primitives.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\slice.rs
+
+C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\libspl_pod-2a8acde73c151f0f.rmeta: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\lib.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\bytemuck.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\error.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\optional_keys.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\primitives.rs C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\slice.rs
+
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\lib.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\bytemuck.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\error.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\optional_keys.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\primitives.rs:
+C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spl-pod-0.1.0\src\slice.rs:
