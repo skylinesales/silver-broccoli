@@ -58,7 +58,7 @@ fn transaction_response_example() -> Result<()> {
     ).message("Please review and sign this transaction".to_string());
     
     println!("   Transaction (base64): {}", response.transaction);
-    println!("   Message: {}", response.message.unwrap());
+    println!("   Message: {}", response.message.as_ref().unwrap());
     println!();
     
     // In a real application, this would be JSON serialized:
