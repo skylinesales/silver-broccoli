@@ -7,7 +7,6 @@
 # Cargo.lock
 
 # Maven build artifacts
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup

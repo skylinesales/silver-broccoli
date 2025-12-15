@@ -108,9 +108,9 @@ use solana_sdk::{
     transaction::Transaction,
 };
 
-// Initialize with proper error handling
+// Initialize with proper error handling (pseudocode - define your own Error type)
 let keypair = Keypair::from_bytes(&bytes)
-    .map_err(|e| Error::InvalidKeypair(e.to_string()))?;
+    .map_err(|e| format!("Invalid keypair: {}", e))?;
 ```
 
 ### Java: Maven Build Integration
