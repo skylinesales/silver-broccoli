@@ -1,0 +1,69 @@
+# Build artifacts and dependencies
+/target/
+*.class
+# Exclude JAR files except SNAPSHOT versions (standard Maven practice for development)
+*.jar
+!*-SNAPSHOT.jar
+
+# Rust
+# Note: Cargo.lock is committed for binaries/applications to ensure reproducible builds
+*.rs.bk
+*.pdb
+**/*.rs.bk
+
+# Java/Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE and Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+*.test
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Solana
+test-ledger/
+.anchor/
