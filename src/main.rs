@@ -142,7 +142,7 @@ fn parse_url(url: &str) -> Result<()> {
         return Ok(());
     }
     
-    return Err(SolanaPayError::InvalidUrl("Not a valid Solana Pay URL".to_string()));
+    Err(SolanaPayError::InvalidUrl("Not a valid Solana Pay URL".to_string()))
 }
 
 fn generate_transfer_url(

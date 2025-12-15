@@ -105,8 +105,8 @@ impl TransferRequest {
             return Err(SolanaPayError::MissingField("recipient".to_string()));
         }
 
-        let recipient_str = if path.starts_with('/') {
-            &path[1..]
+        let recipient_str = if let Some(stripped) = path.strip_prefix('/') {
+            stripped
         } else {
             path
         };

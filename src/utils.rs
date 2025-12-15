@@ -45,11 +45,11 @@ impl Validator {
         }
 
         // Try to parse as either transfer or transaction request
-        if let Ok(_) = TransferRequest::from_url(url_str) {
+        if TransferRequest::from_url(url_str).is_ok() {
             return Ok(());
         }
         
-        if let Ok(_) = TransactionRequest::from_url(url_str) {
+        if TransactionRequest::from_url(url_str).is_ok() {
             return Ok(());
         }
 
