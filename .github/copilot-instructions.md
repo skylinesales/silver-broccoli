@@ -89,6 +89,7 @@ The project uses zencoder with Playwright MCP server configured in `.vscode/sett
 ### Rust: Error Handling
 ```rust
 // Preferred: Use Result types and propagate errors
+// (Note: Transaction, Error, parse_input, validate_transaction are placeholder examples)
 pub fn process_transaction(data: &str) -> Result<Transaction, Error> {
     let parsed = parse_input(data)?;
     validate_transaction(&parsed)?;
@@ -108,7 +109,8 @@ use solana_sdk::{
     transaction::Transaction,
 };
 
-// Initialize with proper error handling (pseudocode - define your own Error type)
+// Example: Initialize with proper error handling
+// In production, define a proper Error type with From<T> implementations
 let keypair = Keypair::from_bytes(&bytes)
     .map_err(|e| format!("Invalid keypair: {}", e))?;
 ```
