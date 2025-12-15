@@ -57,7 +57,7 @@ impl TransactionBuilder {
         request: &TransferRequest,
         payer: &Pubkey,
         token_decimals: u8,
-        recent_blockhash: Hash,
+        _recent_blockhash: Hash,
     ) -> Result<Transaction> {
         let mint = request.spl_token
             .ok_or_else(|| SolanaPayError::MissingField("spl_token".to_string()))?;
