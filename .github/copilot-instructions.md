@@ -101,6 +101,11 @@ silver-broccoli/
 - IDE-specific files (except `.vscode/settings.json` which is shared)
 - Temporary files and logs
 
+### Files to ALWAYS Commit
+- `Cargo.lock` - Ensures reproducible builds for Solana programs and binaries
+- `pom.xml` - Maven project configuration
+- Source code and tests
+
 These are managed via `.gitignore` - see that file for complete list.
 
 ## Key Dependencies & Integration Points
