@@ -1,5 +1,0 @@
-C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\wasm_bindgen_macro-d067e9c99b5f56aa.d: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wasm-bindgen-macro-0.2.104\src\lib.rs
-
-C:\Users\troy young\vscode-remote-wsl\insider\solana-verifiable-build\silver-broccoli\target\debug\deps\wasm_bindgen_macro-d067e9c99b5f56aa.dll: C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wasm-bindgen-macro-0.2.104\src\lib.rs
-
-C:\Users\troy\ young\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wasm-bindgen-macro-0.2.104\src\lib.rs:
