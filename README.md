@@ -14,7 +14,7 @@ A comprehensive Rust implementation of the [Solana Pay specification](https://gi
 
 ## 🤖 For GitHub Copilot Users
 
-This repository is configured with detailed instructions for GitHub Copilot coding agent. See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for:
+This repository is configured with detailed instructions for a GitHub Copilot coding agent. See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for:
 - Build and test procedures using Cargo
 - Development best practices and error handling patterns
 - Project architecture and module organization
