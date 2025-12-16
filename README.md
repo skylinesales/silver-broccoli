@@ -12,6 +12,15 @@ A comprehensive Rust implementation of the [Solana Pay specification](https://gi
 - ✅ **CLI Tool**: Command-line interface for working with Solana Pay URLs
 - ✅ **Zero-copy Parsing**: Efficient URL parsing and generation
 
+## 🤖 For GitHub Copilot Users
+
+This repository is configured with detailed instructions for a GitHub Copilot coding agent. See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for:
+- Build and test procedures using Cargo
+- Development best practices and error handling patterns
+- Project architecture and module organization
+- Common patterns and troubleshooting guidance
+- Security considerations for input validation and URL handling
+
 ## Installation
 
 Add this to your `Cargo.toml`:
@@ -187,6 +196,8 @@ cargo run -- parse "solana:11111111111111111111111111111112?amount=1.5"
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+For best results when using GitHub Copilot or other AI coding assistants, please review the [Copilot instructions](.github/copilot-instructions.md) to understand the project's coding standards and architecture.
 
 ## License
 
